@@ -1,0 +1,9 @@
+package nivel3;
+
+
+public class Perro extends Animal {
+    @Override
+    public void sonido() {
+        System.out.println("El perro hace: ¡Guau, guau!");
+    }
+}
